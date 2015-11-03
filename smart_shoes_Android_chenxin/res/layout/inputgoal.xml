@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inputgoal" >
+
+    <EditText
+        android:id="@+id/etTWalkTime"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_x="160dp"
+        android:layout_y="5dp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="120" />
+
+    <EditText
+        android:id="@+id/etTRunTime"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_x="160dp"
+        android:layout_y="50dp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="60" />
+
+    <EditText
+        android:id="@+id/etTRunStep"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_x="160dp"
+        android:layout_y="140dp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="3000" />
+
+    <EditText
+        android:id="@+id/etTWalkStep"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_x="160dp"
+        android:layout_y="94dp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="6000" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="103dp"
+        android:layout_height="60dp"
+        android:layout_x="29dp"
+        android:layout_y="277dp"
+        android:background="@drawable/transparent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_x="179dp"
+        android:layout_y="278dp"
+        android:background="@drawable/transparent" />
+
+    <EditText
+        android:id="@+id/etTEnergy"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_x="160dp"
+        android:layout_y="190dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="500" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_userinfo" >
+     <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:gravity="center_horizontal"
+        android:text="Klaus" 
+        android:textColor="#000000"/>
+
+     <TextView
+         android:id="@+id/tvWeight"
+         android:layout_width="72dp"
+         android:layout_height="42dp"
+         android:layout_x="85dp"
+         android:layout_y="125dp"
+         android:gravity="center_horizontal"
+         android:text="xxkg"
+         android:textSize="15dp"
+         android:textColor="#000000" />
+
+      <Button
+        android:id="@+id/btnAdjust"
+        android:layout_x="160dp"
+        android:layout_y="120dp"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/transparent" />
+      <Button
+        android:id="@+id/btnRefresh"
+        android:layout_x="250dp"
+        android:layout_y="120dp"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/transparent" />
+      <Button
+        android:id="@+id/btnGoal"
+        android:layout_x="155dp"
+        android:layout_y="5dp"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/transparent" />
+      <Button
+        android:id="@+id/btnBack"
+        android:layout_x="200dp"
+        android:layout_y="55dp"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/transparent" />
+      <ImageView
+        android:id="@+id/imgChart"
+        android:layout_x="0dp"
+        android:layout_y="220dp"
+        android:layout_width="320dp"
+        android:layout_height="260dp"
+        android:src="@drawable/scalechart"
+        android:text="正在载入"/>
+</AbsoluteLayout>

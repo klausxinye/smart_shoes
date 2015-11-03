@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background_bluetooth">
+	<ToggleButton
+	     android:layout_height="30dp" 
+	     android:layout_width="50dp"
+	     android:text="蓝牙开关" 
+        android:layout_x="130dp"
+        android:layout_y="30dp"
+	     android:id="@+id/tbtnSwitch"
+	     >
+	</ToggleButton>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_x="210dp"
+        android:layout_y="0dp"
+        android:background="@drawable/transparent" />
+	<ListView 
+	    android:id="@+id/lvDevices"
+        android:layout_width="320dp"
+        android:layout_height="390dp"
+        android:layout_x="0dp"
+        android:layout_y="90dp"
+        android:background="@drawable/transparent" />
+</AbsoluteLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_inputgoal" >
+    <EditText
+         android:id="@+id/etTWalkTime"
+         android:singleLine="true"
+         android:layout_x="160dp"
+         android:layout_y="5dp"
+         android:layout_width="150dp"
+         android:layout_height="60dp"
+         android:gravity="center_horizontal"
+         android:text="1200" />
+    <EditText
+         android:id="@+id/etTRunTime"
+         android:singleLine="true"
+         android:layout_x="160dp"
+         android:layout_y="60dp"
+         android:layout_width="150dp"
+         android:layout_height="60dp"
+         android:gravity="center_horizontal"
+         android:text="1200" />
+    <EditText
+         android:id="@+id/etTWalkStep"
+         android:singleLine="true"
+         android:layout_x="160dp"
+         android:layout_y="117dp"
+         android:layout_width="150dp"
+         android:layout_height="60dp"
+         android:gravity="center_horizontal"
+         android:text="1200" />
+    <EditText
+	     android:id="@+id/etTRunStep"
+	     android:singleLine="true"
+         android:layout_x="160dp"
+         android:layout_y="174dp"
+         android:layout_width="150dp"
+         android:layout_height="60dp"
+         android:gravity="center_horizontal"
+         android:text="1200" />
+    <Button
+         android:id="@+id/btnConfirm"
+         android:layout_x="20dp"
+         android:layout_y="306dp"
+         android:layout_width="120dp"
+         android:layout_height="60dp"
+         android:background="@drawable/transparent"/>
+    <Button
+         android:id="@+id/btnBack"
+         android:layout_x="185dp"
+         android:layout_y="306dp"
+         android:layout_width="120dp"
+         android:layout_height="60dp"
+         android:background="@drawable/transparent"/>
+</AbsoluteLayout>
+

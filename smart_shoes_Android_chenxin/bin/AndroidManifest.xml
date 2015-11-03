@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.testBlueTooth"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <uses-sdk android:minSdkVersion="10" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="mainpage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".testBlueTooth"></activity>
+    <activity android:name=".RelayControl"></activity>
+    <activity android:name=".userInfoActivity"></activity>
+    <activity android:name=".inputGoalActivity"></activity>
+    <activity android:name=".historyChartActivity"></activity>
+    <activity android:name=".userWeight"></activity>
+    <activity android:name=".moreActivity"></activity>
+</application>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest> 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundnew" >
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_x="1dp"
+        android:layout_y="1dp"
+        android:layout_height="70dp"
+        android:layout_width="80dp"
+        android:background="@drawable/transparent"/>
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_x="80dp"
+        android:layout_y="1dp"
+        android:layout_height="70dp"
+        android:layout_width="80dp"
+        android:background="@drawable/transparent"/>
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="160dp"
+        android:layout_y="1dp"
+        android:background="@drawable/transparent" />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="240dp"
+        android:layout_y="1dp"
+        android:background="@drawable/transparent" />
+     <TextView
+       android:id="@+id/tvWalkTime"
+       android:layout_width="155dp"
+       android:layout_height="40dp"
+       android:layout_x="1dp"
+       android:layout_y="300dp"
+       android:gravity="center_horizontal"
+       android:text="步行xx分"
+       android:textColor="#000000"
+       android:textSize="20dp" />
+
+      <TextView
+         android:id="@+id/tvRunTime"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="1dp"
+         android:layout_y="340dp"
+         android:gravity="center_horizontal"
+         android:text="跑步xx分"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+      <TextView
+         android:id="@+id/tvWalkStep"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="1dp"
+         android:layout_y="380dp"
+         android:gravity="center_horizontal"
+         android:text="步行xx步"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+      <TextView
+         android:id="@+id/tvRunStep"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="1dp"
+         android:layout_y="420dp"
+         android:gravity="center_horizontal"
+         android:text="跑步xx步"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+      <TextView
+         android:id="@+id/tvTargetWalkTime"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="165dp"
+         android:layout_y="300dp"
+         android:gravity="center_horizontal"
+         android:text="步行xx分"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+      <TextView
+         android:id="@+id/tvTargetRunTime"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="165dp"
+         android:layout_y="340dp"
+         android:gravity="center_horizontal"
+         android:text="跑步xx分"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+      <TextView
+         android:id="@+id/tvTargetWalkStep"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="165dp"
+         android:layout_y="380dp"
+         android:gravity="center_horizontal"
+         android:text="步行xx步"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+      <TextView
+         android:id="@+id/tvTargetRunStep"
+         android:layout_width="155dp"
+         android:layout_height="40dp"
+         android:layout_x="165dp"
+         android:layout_y="420dp"
+         android:gravity="center_horizontal"
+         android:text="跑步xx步"
+         android:textColor="#000000"
+         android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/tvStatus"
+          android:layout_width="150dp"
+          android:layout_height="62dp"
+          android:layout_x="89dp"
+          android:layout_y="137dp"
+          android:gravity="center_horizontal"
+          android:text="walking"
+          android:textColor="#000000"
+          android:textSize="35dp" />
+
+</AbsoluteLayout>

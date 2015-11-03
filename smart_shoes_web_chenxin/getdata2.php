@@ -1,0 +1,18 @@
+<?php
+require_once 'database.ini.php';
+
+$name = $_GET["name"];
+
+$sql = "select * from weight where name = '".$name."' order by uid asc";
+$query = $db->query($sql);
+
+$arr = array();
+$row = mysqli_fetch_assoc($query);
+while($row)
+{
+	$arr[] = $row;
+	$row = mysqli_fetch_assoc($query);
+}
+
+echo json_encode($arr);
+?>

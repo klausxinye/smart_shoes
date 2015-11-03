@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/setting" >
+<!--      <TextView -->
+<!--         android:id="@+id/tvUser" -->
+<!--         android:layout_width="10dp" -->
+<!--         android:layout_height="10dp" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="Klaus"  -->
+<!--         android:textColor="#000000"/> -->
+
+      <Button
+          android:id="@+id/btnGoal"
+          android:layout_width="106dp"
+          android:layout_height="42dp"
+          android:layout_x="116dp"
+          android:layout_y="14dp"
+          android:background="@drawable/transparent"
+          android:gravity="center_horizontal" />
+
+	  <Button
+	      android:id="@+id/btnConnect"
+	      android:layout_width="94dp"
+	      android:layout_height="42dp"
+	      android:layout_x="9dp"
+	      android:layout_y="14dp"
+	      android:background="@drawable/transparent"
+	      android:gravity="center_horizontal" />
+
+	  <Button
+	      android:id="@+id/btnBack"
+	      android:layout_width="wrap_content"
+	      android:layout_height="38dp"
+	      android:layout_x="236dp"
+	      android:layout_y="16dp"
+	      android:background="@drawable/transparent"
+	      android:gravity="center_horizontal" />
+
+	  <Button
+	      android:id="@+id/btnAdjust"
+	      android:layout_width="wrap_content"
+	      android:layout_height="35dp"
+	      android:layout_x="222dp"
+	      android:layout_y="78dp"
+	      android:background="@drawable/transparent"
+	      android:gravity="center_horizontal" />
+
+	  <TextView
+	      android:id="@+id/tvWeight"
+	      android:layout_width="72dp"
+	      android:layout_height="42dp"
+	      android:layout_x="83dp"
+	      android:layout_y="90dp"
+	      android:gravity="center_horizontal"
+	      android:text="xxkg"
+	      android:textColor="#000000"
+	      android:textSize="15dp" />
+
+</AbsoluteLayout>

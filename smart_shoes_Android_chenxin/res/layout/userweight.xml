@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/userweight" >
+
+    <Button
+        android:id="@+id/btnMeasure"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_x="151dp"
+        android:layout_y="6dp"
+        android:background="@drawable/transparent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_x="238dp"
+        android:layout_y="4dp"
+        android:background="@drawable/transparent" />
+    <ImageView
+        android:id="@+id/imgChart"
+        android:layout_width="320dp"
+        android:layout_height="260dp"
+        android:layout_x="1dp"
+        android:layout_y="118dp"
+        android:text="正在载入" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_x="54dp"
+        android:layout_y="17dp"
+        android:gravity="center_horizontal"
+        android:text="xxkg"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>
+

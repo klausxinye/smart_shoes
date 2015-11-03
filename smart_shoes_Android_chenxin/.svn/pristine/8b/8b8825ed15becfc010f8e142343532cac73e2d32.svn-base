@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:paddingTop="10dip"
+    android:background="@drawable/background">  
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="99dip" -->
+<!--         android:orientation="horizontal" > -->
+  
+<!--     <Button -->
+<!--         android:id="@+id/btnUser" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_marginRight="4dip" -->
+<!--         android:layout_weight="1" -->
+<!--         android:background="#666666" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="用户" /> -->
+  
+<!--      <Button -->
+<!--         android:id="@+id/btnConnect" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_marginRight="4dip" -->
+<!--         android:layout_weight="1" -->
+<!--         android:background="#666666" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="连接" /> -->
+<!--      <TextView -->
+<!--          android:id="@+id/tvStatus" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="match_parent" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#101010" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="当前状态" /> -->
+        
+<!--     </LinearLayout>   -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="90dp" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--     <Button -->
+<!--         android:id="@+id/Buttonyonghu" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_marginRight="4dip" -->
+<!--         android:layout_weight="1" -->
+<!--         android:background="#666666" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="今日" /> -->
+  
+<!--      <Button -->
+<!--          android:id="@+id/zhuangtai" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="match_parent" -->
+<!--          android:layout_marginRight="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="统计" /> -->
+  
+<!--      <Button -->
+<!--          android:id="@+id/btnMore" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="match_parent" -->
+<!--          android:layout_marginRight="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="更多" /> -->
+<!--        <ScrollView   -->
+<!--      android:id="@+id/ScrollView01"   -->
+<!--        android:layout_width="fill_parent"  -->
+<!--       android:layout_height="wrap_content">  -->
+<!--        <EditText   -->
+<!-- 	      android:id="@+id/tvnet"  --> -->
+<!--  	      android:layout_width="fill_parent"   -->
+<!--  	      android:layout_height="wrap_content">  -->
+<!--  	  </EditText> --> -->
+<!--    </ScrollView> --> -->
+<!--     </LinearLayout> -->
+<!--     <LinearLayout   -->
+<!--     android:orientation="horizontal"   -->
+<!--     android:layout_width="fill_parent"   -->
+<!--     android:layout_height="wrap_content"   -->
+<!--     >   -->
+<!--     <LinearLayout   -->
+<!--     android:orientation="vertical"   -->
+<!--     android:layout_width="fill_parent"   -->
+<!--     android:layout_height="150dip"   -->
+<!--     android:layout_weight="1">   -->
+<!--     <TextView   -->
+<!--         android:text="今日已完成"   -->
+<!--         android:id="@+id/tvnet1" -->
+<!--         android:gravity="center_horizontal"   -->
+<!--         android:background="#666666"   -->
+<!--         android:layout_width="fill_parent"   -->
+<!--         android:layout_height="wrap_content"   -->
+<!--         android:layout_weight="1" -->
+<!--         android:layout_marginTop="4dip"/> -->
+<!--     <TextView   -->
+<!--         android:text="跑步xx分"   -->
+<!--         android:id="@+id/tvRunTime" -->
+<!--         android:gravity="center_horizontal"   -->
+<!--         android:background="#666666"   -->
+<!--         android:layout_width="fill_parent"   -->
+<!--         android:layout_height="wrap_content"   -->
+<!--         android:layout_weight="1" -->
+<!--         android:layout_marginTop="4dip"/>  -->
+<!--      <TextView   -->
+<!--         android:text="步行xx分"   -->
+<!--         android:id="@+id/tvWalkTime" -->
+<!--         android:gravity="center_horizontal"   -->
+<!--         android:background="#666666"   -->
+<!--         android:layout_width="fill_parent"   -->
+<!--         android:layout_height="wrap_content"   -->
+<!--         android:layout_weight="1" -->
+<!--         android:layout_marginTop="4dip"/> -->
+
+<!--      <TextView -->
+<!--          android:id="@+id/tvRunStep" -->
+<!--          android:layout_width="fill_parent" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_marginTop="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="跑步xx步" /> -->
+
+<!--     </LinearLayout>  -->
+<!--     <LinearLayout   -->
+<!--     android:orientation="vertical"   -->
+<!--     android:layout_width="fill_parent"   -->
+<!--     android:layout_height="150dip"   -->
+<!--     android:layout_weight="1">   -->
+<!--     <TextView   -->
+<!--         android:text="您的目标"   -->
+<!--         android:id="@+id/tvYourTarget" -->
+<!--         android:gravity="center_horizontal"   -->
+<!--         android:background="#666666"   -->
+<!--         android:layout_width="fill_parent"   -->
+<!--         android:layout_height="wrap_content"   -->
+<!--         android:layout_weight="1" -->
+<!--         android:layout_marginTop="4dip"/> -->
+<!--     <TextView   -->
+<!--         android:text="跑步xx分"   -->
+<!--         android:id="@+id/tvTargetRunTime" -->
+<!--         android:gravity="center_horizontal"   -->
+<!--         android:background="#666666"   -->
+<!--         android:layout_width="fill_parent"   -->
+<!--         android:layout_height="wrap_content"   -->
+<!--         android:layout_weight="1" -->
+<!--         android:layout_marginTop="4dip"/>  -->
+
+<!--      <TextView -->
+<!--          android:id="@+id/tvTargetWalkTime" -->
+<!--          android:layout_width="fill_parent" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_marginTop="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="步行xx分" /> -->
+
+<!--      <TextView -->
+<!--          android:id="@+id/tvTargetRunStep" -->
+<!--          android:layout_width="fill_parent" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_marginTop="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="跑步xx步" /> -->
+
+<!--     </LinearLayout>       -->
+<!--     </LinearLayout> -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="88dp" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/tvWalkStep" -->
+<!--             android:layout_width="160dip" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_marginTop="4dip" -->
+<!--             android:layout_weight="0.91" -->
+<!--             android:background="#666666" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:text="步行xx步" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/tvTargetWalkStep" -->
+<!--             android:layout_width="160dip" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_marginTop="4dip" -->
+<!--             android:layout_weight="0.92" -->
+<!--             android:background="#666666" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:text="步行xx步" /> -->
+
+<!--     </LinearLayout> -->
+<!--       <Button -->
+<!--          android:id="@+id/btnExit" -->
+<!--          android:layout_width="match_parent" -->
+<!--          android:layout_height="match_parent" -->
+<!--          android:layout_marginRight="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="退出" /> -->
+<!--       <Button -->
+<!--          android:id="@+id/btnq" -->
+<!--          android:layout_width="match_parent" -->
+<!--          android:layout_height="match_parent" -->
+<!--          android:layout_marginRight="4dip" -->
+<!--          android:layout_weight="1" -->
+<!--          android:background="#666666" -->
+<!--          android:gravity="center_horizontal" -->
+<!--          android:text="query" /> -->
+    </LinearLayout>
+    
